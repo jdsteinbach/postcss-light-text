@@ -46,7 +46,6 @@
         "experimentalObjectRestSpread": true
       }
     },
-    "presets": ["es2015"],
     "rules": {
       "indent": [1, 2]
     }
