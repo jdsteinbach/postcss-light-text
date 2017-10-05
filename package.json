@@ -1,6 +1,6 @@
 {
   "name": "postcss-light-text",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "PostCSS plugin that adds webkit antialiasing for light text",
   "keywords": [
     "postcss",
@@ -46,9 +46,14 @@
         "experimentalObjectRestSpread": true
       }
     },
-    "presets": ["es2015"],
+    "presets": [
+      "es2015"
+    ],
     "rules": {
-      "indent": [1, 2]
+      "indent": [
+        1,
+        2
+      ]
     }
   }
 }
