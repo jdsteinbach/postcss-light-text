@@ -22,7 +22,19 @@
 ## Usage
 
 ```js
-postcss([ require('postcss-light-text') ]);
+var lightText = require('postcss-light-text');
+
+postcss([ lightText ]);
+```
+
+## Options
+
+The plugin defaults to a luminance value of `0.5`. If you'd like to change that, pass the following option:
+
+```js
+var lightText = require('postcss-light-text');
+
+postCSS([ lightText({ luminance: 0.7 }) ]);
 ```
 
 See [PostCSS] docs for examples for your environment.
