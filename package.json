@@ -1,0 +1,38 @@
+{
+  "name": "postcss-light-text",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that adds webkit antialiasing for light text",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "text",
+    "antialiasing",
+    "legibility"
+  ],
+  "author": "James Steinbach <jdsteinbach@gmail.com>",
+  "license": "MIT",
+  "repository": "jdsteinbach/postcss-light-text",
+  "bugs": {
+    "url": "https://github.com/jdsteinbach/postcss-light-text/issues"
+  },
+  "homepage": "https://github.com/jdsteinbach/postcss-light-text",
+  "dependencies": {
+    "postcss": "^6.0.1",
+    "tinycolor2": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^20.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
