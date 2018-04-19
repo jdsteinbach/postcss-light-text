@@ -23,3 +23,19 @@ test('no change: dark color', () => {
     'a{color:#222}'
   );
 });
+
+test('change: custom luminance', () => {
+  return run(
+    'a{color:#ddd}',
+    'a{color:#ddd;-webkit-font-smoothing:antialiased}',
+    { luminance: 0.7 }
+  );
+});
+
+test('no change: custom luminance', () => {
+  return run(
+    'a{color:#ccc}',
+    'a{color:#ccc}',
+    { luminance: 0.7 }
+  );
+});
